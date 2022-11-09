@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#main-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 10.5rem);
+}

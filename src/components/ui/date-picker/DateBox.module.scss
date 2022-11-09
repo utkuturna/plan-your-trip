@@ -1,0 +1,28 @@
+.box {
+  height: 4.5rem;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: .875rem;
+  font-size: .75rem;
+  min-width: calc(20% - .2rem);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media only screen and (min-width: 575px) {
+    min-width: calc(14.24% - .2rem);
+  }
+
+  &.active {
+    background-color:  #9B51E0;
+    color: #ffffff;
+  }
+}
+
+.date {
+  font-size: 1.5rem;
+  font-weight: 500;
+}

@@ -1,0 +1,27 @@
+.picker {
+  transition: ease-in-out opacity .2s;
+}
+
+.container {
+  display: flex;
+  gap: .25rem;
+}
+
+.wrapper {
+  overflow: auto;
+}
+
+label {
+  font-size: .75rem;
+  margin-bottom: .5rem;
+  display: block;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.3;
+
+  .wrapper {
+    overflow: hidden;
+  }
+}
